@@ -5,5 +5,10 @@ description = "{{ project_name }}: {{ project_description }}"
 readme = "README.rst"
 license-expression = "MIT"
 license-files = ["LICENSE.txt"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python",
+]
 requires-python = ">={{ python_version }}"
 dependencies = []
