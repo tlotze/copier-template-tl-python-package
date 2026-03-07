@@ -1,2 +1,16 @@
 _subdirectory: template
 _templates_suffix: ""
+
+project_name:
+  type: str
+
+project_description:
+  type: str
+
+package_name:
+  type: str
+  default: "{{ project_name.lower().replace(' ', '_').replace('-', '_') }}"
+
+python_version:
+  type: str
+  default: 3.14
